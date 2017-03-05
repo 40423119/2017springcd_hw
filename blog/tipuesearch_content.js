@@ -1,1 +1,1 @@
-var tipuesearch = {"pages":[{"text":"2016Fall 修課成員網誌","tags":"misc","title":"About","url":"./pages/about/"},{"text":"利用solvespace及onshape組裝四連桿機構 solvespace組裝影片 零件1 零件2 零件3 組裝 onshape組裝影片 零件1 零件2 零件3 組裝","tags":"Course","title":"40423119 W1作業","url":"./40423119-w1zuo-ye.html"}]};
+var tipuesearch = {"pages":[{"url":"./pages/about/","title":"About","tags":"misc","text":"2016Fall 修課成員網誌"},{"url":"./40423119_si-lian-gan-ji-gou-zu-li.html","title":"40423119_四連桿機構組立","tags":"HomeWork","text":"利用Solvespace組裝四連桿機構 零件繪製影片 四連桿組裝影片 四連桿圖檔 (Download)"}]};
