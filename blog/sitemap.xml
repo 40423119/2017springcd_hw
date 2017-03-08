@@ -5,63 +5,63 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-03-05T22:49:42-00:00</lastmod>
+<lastmod>2017-03-08T22:22:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-03-05T22:49:42-00:00</lastmod>
+<lastmod>2017-03-08T22:22:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-03-05T22:49:42-00:00</lastmod>
+<lastmod>2017-03-08T22:22:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-03-05T22:49:42-00:00</lastmod>
+<lastmod>2017-03-08T22:22:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2017-03-05T22:19:28+08:00</lastmod>
+<lastmod>2017-03-08T21:48:16+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./40423119_si-lian-gan-ji-gou-zu-li.html</loc>
-<lastmod>2017-03-02T20:08:00+08:00</lastmod>
+<loc>./40423119_si-lian-gan-ji-gou-zu-li-xiu-gai-ip.html</loc>
+<lastmod>2017-03-02T22:17:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/homework.html</loc>
-<lastmod>2017-03-02T20:08:00+08:06</lastmod>
+<lastmod>2017-03-02T22:17:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/four-bar-linkage.html</loc>
-<lastmod>2017-03-02T20:08:00+08:06</lastmod>
+<loc>./tag/four-bar-linkage-ip.html</loc>
+<lastmod>2017-03-02T22:17:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40423119.html</loc>
-<lastmod>2017-03-02T20:08:00+08:06</lastmod>
+<lastmod>2017-03-02T22:17:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
