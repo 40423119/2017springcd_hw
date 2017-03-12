@@ -5,41 +5,48 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-03-08T22:22:21-00:00</lastmod>
+<lastmod>2017-03-13T00:34:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-03-08T22:22:21-00:00</lastmod>
+<lastmod>2017-03-13T00:34:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-03-08T22:22:21-00:00</lastmod>
+<lastmod>2017-03-13T00:34:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-03-08T22:22:21-00:00</lastmod>
+<lastmod>2017-03-13T00:34:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2017-03-08T21:48:16+08:00</lastmod>
+<lastmod>2017-03-12T22:59:25+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./40423119_si-lian-gan-ji-gou-zu-li-xiu-gai-ip.html</loc>
+<loc>./w3_40423119_zu-li-v-repying-yong.html</loc>
+<lastmod>2017-03-09T23:17:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./w2_40423119_si-lian-gan-ji-gou-zu-li-xiu-gai-ip.html</loc>
 <lastmod>2017-03-02T22:17:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -47,7 +54,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/homework.html</loc>
-<lastmod>2017-03-02T22:17:00+08:06</lastmod>
+<lastmod>2017-03-09T23:17:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -60,8 +67,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./tag/v-rep.html</loc>
+<lastmod>2017-03-09T23:17:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./author/40423119.html</loc>
-<lastmod>2017-03-02T22:17:00+08:06</lastmod>
+<lastmod>2017-03-09T23:17:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
