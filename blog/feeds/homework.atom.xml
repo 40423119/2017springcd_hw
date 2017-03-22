@@ -1,16 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/homework.atom.xml" rel="self"></link><id>./</id><updated>2017-03-16T23:17:00+08:00</updated><entry><title>40423119_W4作業</title><link href="./40423119_w4zuo-ye.html" rel="alternate"></link><published>2017-03-16T23:17:00+08:00</published><updated>2017-03-16T23:17:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-03-16:./40423119_w4zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
-&lt;h2&gt;利用Solvespace組裝單連桿機構&lt;/h2&gt;
+&lt;h1&gt;Hyperworks 14.0 學生版&lt;/h1&gt;
+&lt;h2&gt;Hyperworks安裝心得&lt;/h2&gt;
+&lt;p&gt;首先要安裝 Hyperworks 14 學生版之前要先註冊帳號密碼，註冊完畢後訊息將會寄到信箱，此時信箱內容會有一串連結，點進去之後就可以下載 Hyperworks 14 學生版(但須等待對方批準許可才能下載，可能需要一段時間)。上述是在安裝這套軟體之前所需要的程序，而且步驟有點繁雜，在同一個帳號內不能多個下載 Hyperworks 及套件，每當安裝一個新套件就要再重新輸入資訊，所以會花很久的時間在下載安裝。&lt;/p&gt;
+&lt;h1&gt;利用Solvespace組裝單連桿機構&lt;/h1&gt;
 &lt;h2&gt;零件繪製影片&lt;/h2&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/LssiHmmjdUg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;h2&gt;單連桿組立影片&lt;/h2&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DTUh51Hk1lo" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
+&lt;p&gt;單連桿圖檔&lt;a href="./../data/w2/onelink"&gt;(Download)&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;利用Solvespace組立並轉入V-rep&lt;/h1&gt;
 &lt;h2&gt;單連桿組立轉入V-rep影片&lt;/h2&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-ab1ZZkflOc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h1&gt;平面四連桿機構的運動路徑方程式推導&lt;/h1&gt;
+&lt;p&gt;利用 Sympy 求解：&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+from sympy import *
+'''
+已知四連桿四個關鍵點座標分別為 A (x1, y1), B (x2, y2), C (x3, y3) 與 D (x4, y4)
+且 E (x5, y5) 點相關參考x 座標距離為 d5, 而 y座標距離為 d6, 以及輸入角度逆時鐘轉 t 度
+以 (x1, y1), (x4, y4), d1, d2, d3, d5, d6 及 t 等 10 個參數作為輸入, 
+求 E 點座標 (x5, y5)
+假設 AB 連桿長度為 d1, BC 連桿長度為 d2, CD 連桿長度為 d3, AD 距離為 d4
+'''
+x1, x2, x3, x4, x5 = symbols('x1 x2 x3 x4 x5')
+y1, y2, y3, y4, y5 = symbols('y1 y2 y3 y4 y5')
+d1, d2, d3, d4, d5, d6, t, t3 = symbols('d1 d2 d3 d4 d5 d6 t t3')
+ah, bh, aj, dj, bd, hj, dk, bk = symbols('ah bh aj dj bd hj dk bk')
+# angle daj defined as daj
+daj, adj, bad, bcd, bdc, bdk = symbols('daj adj bad bcd bdc bdk')
+# degree factor
+degree, pi = symbols('degree pi')
+degree = pi/180.0
+# 假設 B 點的絕對 y 座標方向投影點為 H
+d1 = sqrt((x1-x2)**2+(y1-y2)**2)
+#print(d1)
+d2 = sqrt((x2-x3)**2+(y2-y3)**2)
+d3 = sqrt((x3-x4)**2+(y3-y4)**2)
+d4 = sqrt((x1-x4)**2+(y1-y4)**2)
+ah = d1*cos(t)
+bh = sqrt(d1**2 - ah**2)
+aj = Abs(x4-x1)
+dj = Abs(y4-y1)
+dk = aj - ah
+bk =  bh - dj
+t3 = bdc + bdk
+# for daj, dj**2 = d4**2+aj**2 -2*d4*aj*cos(daj)
+pos = 1
+if pos == 1:
+    daj = solve(-dj**2+d4**2+aj**2 -2*d4*aj*cos(daj), daj)[0]
+else:
+    daj = solve(-dj**2+d4**2+aj**2 -2*d4*aj*cos(daj), daj)[1]
+#print(daj)
+# for adj, aj**2=d4**2+dj**2-2*d4*aj*cos(adj)
+if pos == 1:
+    adj = solve(-aj**2+d4**2+dj**2-2*d4*aj*cos(adj), adj)[0]
+else:
+    adj = solve(-aj**2+d4**2+dj**2-2*d4*aj*cos(adj), adj)[0]
+#print(adj)
+bad = t*degree - daj
+# according triangle tad find bd
+#bd**2 = d1**2+d4**2-2*d1*d4*cos(bad)
+if pos == 1:
+    bd = solve(-bd**2+d1**2+d4**2-2*d1*d4*cos(bad), bd)[0]
+else:
+    bd = solve(-bd**2+d1**2+d4**2-2*d1*d4*cos(bad), bd)[1]
+print(bd)
+
+if pos == 1:
+    bcd = solve(-bd**2+d2**2+d3**2-2*d2*d3*cos(bcd), bcd)[0]
+else:
+    bcd = solve(-bd**2+d2**2+d3**2-2*d2*d3*cos(bcd), bcd)[1]
+
+if pos == 1:
+    bdk = solve(-bk**2+bd**2+dk**2-2*bd*dk*cos(bdk), bdk)[0]
+else:
+    bdk = solve(-bk**2+bd**2+dk**2-2*bd*dk*cos(bdk), bdk)[1]
+
+if pos == 1:
+    bdc = solve(-d2**2+d3**2+bd**2-2*d3*bd*cos(bdc), bdc)[0]
+else:
+    bdc = solve(-d2**2+d3**2+bd**2-2*d3*bd*cos(bdc), bdc)[1]
+print(t3)
+&lt;/pre&gt;
 
 &lt;h2&gt;四連桿平面機構繪圖&lt;/h2&gt;
 &lt;!-- 導入 Brython 標準程式庫 3.3.1 --&gt;
@@ -267,6 +343,37 @@ cgo.animate(armGrp, initArm, armPathFn, animData)
 cgo.playAnimation()
 &lt;/script&gt;</summary><category term="Onelink &amp; Hyperworks應用 &amp; 平面機構運動模擬"></category></entry><entry><title>40423119_W3作業</title><link href="./40423119_w3zuo-ye.html" rel="alternate"></link><published>2017-03-09T23:17:00+08:00</published><updated>2017-03-09T23:17:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-03-09:./40423119_w3zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
+&lt;h1&gt;Hyperworks16-4&lt;/h1&gt;
+&lt;h2&gt;翻譯影片1&lt;/h2&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/fTgaulekEZ4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;Hyperworks16-4內容：&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;In the cfd area we we develop a lot on our own technology in Arkansas&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;在CFD領域，我們我們開發了很多我們自己的技術在阿肯色州&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Arkansas is positioned as the general-purpose navier-stokes CFD solver so with our new turbulence modeling&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;阿肯色被定位為通用納維-斯托克斯CFD求解使我們的新湍流模型&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;we will be able to cover more use cases and we did in the past&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;所以我們的新湍流模型，將能覆蓋更多過去我們在做的使用案例&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;we made an investment into a small company in Germany the fluid Dinah that focus on a GPU use and cfd simulation&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;我們投資德國名叫 fluid Dinahe的小公司專門再做GPU的使用和CFD模擬&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;and there are two products that we are putting our energy into one is called ultra fluid X which is a lot of balls on external aerodynamics software that is being used in a virtual internal setting&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;我們把精力投入到一個被稱為超流體X主要是在虛擬的內部設置使用很多外部空氣動力學軟件球 &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;another code that came with the investment is none of you would accept use of SPH technologies we are focusing here particularly on simulating of oil flow in transmission cages&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;而另個代碼使用SPH技術重點在於對石油模擬與傳輸的記錄&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;record is coming out reserves is a new evolution of their their software a big focus in 14 over the finite-difference time-domain most of the solutions and pako our frequency domain solutions now&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;軟件有了全新的進化 因為有14等分的分差時域有了解決方案，並在PAKO頻域提供一個解決方案&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;we will be providing a time domain solution that will make us more competitive also this solution is very well suited for GPU processing a lot of people as they talk about the physics I think about couples followers&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;這讓我們更有競爭力因為這種解決方案適合於GPU處理了很多運算及演算&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;or two lots of years to actually look at certain use cases and work with clients to develop solve a coupling lewis structure interaction is really one of&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;並實際運用在某些使用情況與客戶一起開發解決耦合問題也是非常重要的&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;the coupling use cases and it's very important also here we're developing off  the start so that root structure actually the direct coupling can be done the softest &lt;/b&gt; &lt;/p&gt;
+&lt;p&gt;耦合比例非常重要 我們正在開發能使根部結構耦合可以做到最柔軟的方法&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;we have been developing a coupling actually of arkansas also with multi body dynamics and we did recent just recently a paper at the japanese Society of Automotive Engineers simulating a lane change of a car in a wind tunnel&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;我們一直在阿肯色州開發耦合和多體動力學
+最近也派美國汽車工程師與日本工程師交流&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;so let this little is a very exciting picture of course the validation is another issue here but I think we we have a great technology here and we can work with clients to improve the technology and validate the technology&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;這是一個非常難得的經驗 找出我們的問題
+利用這次經驗 拿出更厲害的技術與我們的客戶合作&lt;/p&gt;
 &lt;h1&gt;Hyperworks2&lt;/h1&gt;
 &lt;h2&gt;翻譯影片2&lt;/h2&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/WGAmkWxPiig" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
