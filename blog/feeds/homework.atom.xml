@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/homework.atom.xml" rel="self"></link><id>./</id><updated>2017-03-16T23:17:00+08:00</updated><entry><title>40423119_W4作業</title><link href="./40423119_w4zuo-ye.html" rel="alternate"></link><published>2017-03-16T23:17:00+08:00</published><updated>2017-03-16T23:17:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-03-16:./40423119_w4zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/homework.atom.xml" rel="self"></link><id>./</id><updated>2017-03-23T22:53:00+08:00</updated><entry><title>40423119_W5作業</title><link href="./40423119_w5zuo-ye.html" rel="alternate"></link><published>2017-03-23T22:53:00+08:00</published><updated>2017-03-23T22:53:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-03-23:./40423119_w5zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h1&gt;單連桿機構轉入 V-rep 進行運動模擬&lt;/h1&gt;
+&lt;h2&gt;運動模擬影片&lt;/h2&gt;
+&lt;p&gt;完成組立後轉進 V-rep，分解零組件，加入旋轉軸&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/UXCR48-yRwA" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="單連桿運動模擬"></category></entry><entry><title>40423119_W4作業</title><link href="./40423119_w4zuo-ye.html" rel="alternate"></link><published>2017-03-16T23:17:00+08:00</published><updated>2017-03-16T23:17:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-03-16:./40423119_w4zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h1&gt;Hyperworks 14.0 學生版&lt;/h1&gt;
 &lt;h2&gt;Hyperworks安裝心得&lt;/h2&gt;
