@@ -2,7 +2,7 @@
 *Author: Jake Vanderplas <jakevdp@cs.washington.edu>*
 
 This plugin allows liquid-style tags to be inserted into markdown within
-Pelican documents. Liquid uses tags bounded by ``{% ... %}``, and is used
+Pelican documents. Liquid uses tags bounded by `{% ... %}`, and is used
 to extend markdown in other blogging platforms such as octopress.
 
 This set of extensions does not actually interface with liquid, but allows
@@ -23,7 +23,7 @@ There are several options available
 To insert a sized and labeled image in your document, enable the
 ``liquid_tags.img`` plugin and use the following:
 
-    ``{% img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}``
+    {% img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}
 
 ### Base64 Image (inline image) tag
 
