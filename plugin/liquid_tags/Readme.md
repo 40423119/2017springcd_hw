@@ -2,7 +2,7 @@
 *Author: Jake Vanderplas <jakevdp@cs.washington.edu>*
 
 This plugin allows liquid-style tags to be inserted into markdown within
-Pelican documents. Liquid uses tags bounded by{% ... %}, and is used
+Pelican documents. Liquid uses tags bounded by``{% ... %}``, and is used
 to extend markdown in other blogging platforms such as octopress.
 
 This set of extensions does not actually interface with liquid, but allows
@@ -32,7 +32,7 @@ There is one more tag for image: ``b64img``. It is based on ``img`` tag, but ins
 To use it:
 
 1. Enable ``liquid_tags.b64img``
-1. Insert tag as you'd insert image one: {% b64img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}
+1. Insert tag as you'd insert image one: ``{% b64img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}``
 
 Images are read on compilation phase so you can use any local path (just be sure that image will remain there on next compilation)
 
@@ -51,7 +51,7 @@ To insert a Flickr image to a post, follow these steps:
 3. Add FLICKR_API_KEY to your config
 4. Add this to your document:
 
-    {% flickr image_id [small|medium|large] ["alt text"|'alt text'] %}
+    ``{% flickr image_id [small|medium|large] ["alt text"|'alt text'] %}``
 
 ## Giphy Tag
 To insert a gif from Giphy in your document by its id (such as ``aMSJFS6oFX0fC``), enable the ``liquid_tags.giphy`` plugin and use the following:
@@ -67,7 +67,7 @@ To insert a Soundcloud Widget to a post, follow these steps:
 1. Enable ``liquid_tags.soundcloud``
 2. Add this to your document:
 
-    {% soundcloud track_url %}
+    ``{% soundcloud track_url %}``
 
 ## Youtube Tag
 To insert youtube video into a post, enable the
@@ -185,13 +185,13 @@ The notebook tag also has two optional arguments: ``cells`` and ``language``.
 
 - You can specify a slice of cells to include:
 
-  {% notebook filename.ipynb cells[2:8] %}
+  ``{% notebook filename.ipynb cells[2:8] %}``
 
 - You can also specify the name of a language which Pygments should use for
   highlighting code cells. A list of the short names for languages that Pygments
   will highlight can be found [here](http://www.pygments.org/docs/lexers/).
 
-  {% notebook filename.ipynb language[julia] %}
+  ``{% notebook filename.ipynb language[julia] %}``
 
   This may be helpful for those using [IJulia](https://github.com/JuliaLang/IJulia.jl)
   or notebooks in any other language, especially as the IPython project [broadens its
@@ -202,7 +202,7 @@ The notebook tag also has two optional arguments: ``cells`` and ``language``.
 - These options can be used separately, together, or not at all. However,
   if both tags are used then ``cells`` must come before ``language``:
 
-  {% notebook filename.ipynb cells[2:8] language[julia] %}
+  ``{% notebook filename.ipynb cells[2:8] language[julia] %}``
 
 ### Collapsible Code in IPython Notebooks
 
