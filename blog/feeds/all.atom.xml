@@ -48,9 +48,9 @@ window.onload = function(){
 &lt;script src="https://rawgit.com/mrdoob/three.js/master/examples/js/controls/TrackballControls.js"
 &gt;&lt;/script&gt;
 
-&lt;script src="./../data/w9/loader.js"&gt;&lt;/script&gt;
+&lt;script src="./../w9/loader.js"&gt;&lt;/script&gt;
 
-&lt;script src="./../data/w9/stl.js"&gt;&lt;/script&gt;
+&lt;script src="./../w9/stl.js"&gt;&lt;/script&gt;
 
 &lt;div&gt;
 select stl file: &lt;input type="file" id="file" /&gt; or drop stl file
