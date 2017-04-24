@@ -1,15 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-20T20:17:00+08:00</updated><entry><title>40423119_期中協同查驗與自評</title><link href="./40423119_qi-zhong-xie-tong-cha-yan-yu-zi-ping.html" rel="alternate"></link><published>2017-04-20T20:17:00+08:00</published><updated>2017-04-20T20:17:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-04-20:./40423119_qi-zhong-xie-tong-cha-yan-yu-zi-ping.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-20T20:17:00+08:00</updated><entry><title>40423119_期中協同查驗與自評</title><link href="./40423119_qi-zhong-xie-tong-cha-yan-yu-zi-ping.html" rel="alternate"></link><published>2017-04-20T20:17:00+08:00</published><updated>2017-04-20T20:17:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-04-20:./40423119_qi-zhong-xie-tong-cha-yan-yu-zi-ping.html</id><summary type="html">&lt;p&gt;1.Fossil Server 實習查驗&lt;/p&gt;
+&lt;p&gt;2.四連桿機構協同 Trace Point 查驗&lt;/p&gt;
+&lt;p&gt;3.Fourbar Walker OnShape 零件協同繪圖與組立查驗&lt;/p&gt;
+&lt;p&gt;4.分組協同零件展示&lt;/p&gt;
+
 
 &lt;h2&gt;(一) Fossil Server 實習查驗&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://mde2a2.kmol.info/midterm/ag1/index"&gt;ag1期中考報告 fossil &lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;(二) 四連桿機構協同 Trace Point 查驗&lt;/h2&gt;
 &lt;p&gt;四連桿機構運動軌跡影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/L-fFFHDi8K4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/agb9hsjFZGo" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;四連桿Trace Point 查驗圖片&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/JwX2PjC"&gt;&lt;img src="http://i.imgur.com/JwX2PjC.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/Jojcjxr"&gt;&lt;img src="http://i.imgur.com/Jojcjxr.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;利用Excel 查驗四連桿Trace Point 圖片&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/tQ6GUcc"&gt;&lt;img src="http://i.imgur.com/tQ6GUcc.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;(三) Fourbar Walker OnShape 零件協同繪圖與組立查驗&lt;/h2&gt;
-&lt;h2&gt;(四) 分組協同零件展示&lt;/h2&gt;</summary><category term="期中協同查驗與自評"></category></entry><entry><title>40423119_W6作業</title><link href="./40423119_w6zuo-ye.html" rel="alternate"></link><published>2017-03-30T21:53:00+08:00</published><updated>2017-03-30T21:53:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-03-30:./40423119_w6zuo-ye.html</id><summary type="html">&lt;p&gt;1.四連桿運動模擬&lt;/p&gt;
+&lt;p&gt;利用SolveSpace畫Fourbar Walker影片&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/K2Go2NYjTVA" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;利用SolveSpace畫Fourbar Walker圖片&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/IY313RC"&gt;&lt;img src="http://i.imgur.com/IY313RC.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;利用OnShape組立Fourbar Walker影片&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/QxSqVL9Np2c" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;(四) 分組協同零件展示&lt;/h2&gt;
+&lt;p&gt;&lt;link href="./../work/madeleine/src/css/Madeleine.css" rel="stylesheet"&gt;
+&lt;script src="./../work/madeleine/src/stats.js"&gt;&lt;/script&gt;
+&lt;script src="./../work/madeleine/src/detector.js"&gt;&lt;/script&gt;
+&lt;script src="./../work/madeleine/src/three.min.js"&gt;&lt;/script&gt;
+&lt;script src="./../work/madeleine/src/Madeleine.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;div id="target" class="madeleine"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../data/Fourbar Walker.stl', // data path
+      path: './../work/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+&lt;/script&gt;
+
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"
+&gt;&lt;/script&gt;
+
+&lt;script src="https://rawgit.com/mrdoob/three.js/master/examples/js/controls/TrackballControls.js"
+&gt;&lt;/script&gt;
+
+&lt;script src="./../data/w9/loader.js"&gt;&lt;/script&gt;
+
+&lt;script src="./../data/w9/stl.js"&gt;&lt;/script&gt;
+
+&lt;div&gt;
+select stl file: &lt;input type="file" id="file" /&gt; or drop stl file
+&lt;/div&gt;
+
+&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="期中協同查驗與自評"></category></entry><entry><title>40423119_W6作業</title><link href="./40423119_w6zuo-ye.html" rel="alternate"></link><published>2017-03-30T21:53:00+08:00</published><updated>2017-03-30T21:53:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-03-30:./40423119_w6zuo-ye.html</id><summary type="html">&lt;p&gt;1.四連桿運動模擬&lt;/p&gt;
 &lt;p&gt;2.八連桿運動模擬
 &lt;/p&gt;
 &lt;h1&gt;四連桿機構轉入 V-rep 進行運動模擬&lt;/h1&gt;

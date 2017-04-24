@@ -170,12 +170,13 @@ init_mathjax();
 
         <meta name="author" content="40423119" />
         <meta name="keywords" content="期中協同查驗與自評" />
+        <meta name="description" content="1.Fossil Server 實習查驗 2.四連桿機構協同 Trace Point 查驗 3.Fourbar Walker OnShape 零件協同繪圖與組立查驗 4.分組協同零件展示" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="40423119_期中協同查驗與自評"/>
         <meta property="og:url" content="./40423119_qi-zhong-xie-tong-cha-yan-yu-zi-ping.html"/>
-        <meta property="og:description" content=""/>
+        <meta property="og:description" content="1.Fossil Server 實習查驗 2.四連桿機構協同 Trace Point 查驗 3.Fourbar Walker OnShape 零件協同繪圖與組立查驗 4.分組協同零件展示"/>
         <meta property="article:published_time" content="2017-04-20" />
             <meta property="article:section" content="期中考" />
             <meta property="article:tag" content="期中協同查驗與自評" />
@@ -314,17 +315,64 @@ init_mathjax();
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <!-- PELICAN_END_SUMMARY -->
+                <p>1.Fossil Server 實習查驗</p>
+<p>2.四連桿機構協同 Trace Point 查驗</p>
+<p>3.Fourbar Walker OnShape 零件協同繪圖與組立查驗</p>
+<p>4.分組協同零件展示</p>
+
 
 <h2>(一) Fossil Server 實習查驗</h2>
+<p><a href="https://mde2a2.kmol.info/midterm/ag1/index">ag1期中考報告 fossil </a></p>
 <h2>(二) 四連桿機構協同 Trace Point 查驗</h2>
 <p>四連桿機構運動軌跡影片</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L-fFFHDi8K4" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/agb9hsjFZGo" frameborder="0" allowfullscreen></iframe>
 
 <p>四連桿Trace Point 查驗圖片</p>
-<p><a href="http://imgur.com/JwX2PjC"><img src="http://i.imgur.com/JwX2PjC.png" title="source: imgur.com" /></a></p>
+<p><a href="http://imgur.com/Jojcjxr"><img src="http://i.imgur.com/Jojcjxr.png" title="source: imgur.com" /></a></p>
+<p>利用Excel 查驗四連桿Trace Point 圖片</p>
+<p><a href="http://imgur.com/tQ6GUcc"><img src="http://i.imgur.com/tQ6GUcc.png" title="source: imgur.com" /></a></p>
 <h2>(三) Fourbar Walker OnShape 零件協同繪圖與組立查驗</h2>
+<p>利用SolveSpace畫Fourbar Walker影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K2Go2NYjTVA" frameborder="0" allowfullscreen></iframe>
+
+<p>利用SolveSpace畫Fourbar Walker圖片</p>
+<p><a href="http://imgur.com/IY313RC"><img src="http://i.imgur.com/IY313RC.png" title="source: imgur.com" /></a></p>
+<p>利用OnShape組立Fourbar Walker影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QxSqVL9Np2c" frameborder="0" allowfullscreen></iframe>
+
 <h2>(四) 分組協同零件展示</h2>
+<p><link href="./../work/madeleine/src/css/Madeleine.css" rel="stylesheet">
+<script src="./../work/madeleine/src/stats.js"></script>
+<script src="./../work/madeleine/src/detector.js"></script>
+<script src="./../work/madeleine/src/three.min.js"></script>
+<script src="./../work/madeleine/src/Madeleine.js"></script></p>
+<div id="target" class="madeleine"></div>
+
+<script>
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../data/Fourbar Walker.stl', // data path
+      path: './../work/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"
+></script>
+
+<script src="https://rawgit.com/mrdoob/three.js/master/examples/js/controls/TrackballControls.js"
+></script>
+
+<script src="./../data/w9/loader.js"></script>
+
+<script src="./../data/w9/stl.js"></script>
+
+<div>
+select stl file: <input type="file" id="file" /> or drop stl file
+</div>
+
+<div id="view"></div>
             </div>
             <!-- /.entry-content -->
         </article>
