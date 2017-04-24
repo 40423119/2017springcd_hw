@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-30T21:53:00+08:00</updated><entry><title>40423119_W6作業</title><link href="./40423119_w6zuo-ye.html" rel="alternate"></link><published>2017-03-30T21:53:00+08:00</published><updated>2017-03-30T21:53:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-03-30:./40423119_w6zuo-ye.html</id><summary type="html">&lt;p&gt;1.四連桿運動模擬&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-20T20:17:00+08:00</updated><entry><title>40423119_期中協同查驗與自評</title><link href="./40423119_qi-zhong-xie-tong-cha-yan-yu-zi-ping.html" rel="alternate"></link><published>2017-04-20T20:17:00+08:00</published><updated>2017-04-20T20:17:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-04-20:./40423119_qi-zhong-xie-tong-cha-yan-yu-zi-ping.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt;(一) Fossil Server 實習查驗&lt;/h2&gt;
+&lt;h2&gt;(二) 四連桿機構協同 Trace Point 查驗&lt;/h2&gt;
+&lt;p&gt;四連桿機構運動軌跡影片&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/L-fFFHDi8K4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;四連桿Trace Point 查驗圖片&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/JwX2PjC"&gt;&lt;img src="http://i.imgur.com/JwX2PjC.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;(三) Fourbar Walker OnShape 零件協同繪圖與組立查驗&lt;/h2&gt;
+&lt;h2&gt;(四) 分組協同零件展示&lt;/h2&gt;</summary><category term="期中協同查驗與自評"></category></entry><entry><title>40423119_W6作業</title><link href="./40423119_w6zuo-ye.html" rel="alternate"></link><published>2017-03-30T21:53:00+08:00</published><updated>2017-03-30T21:53:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-03-30:./40423119_w6zuo-ye.html</id><summary type="html">&lt;p&gt;1.四連桿運動模擬&lt;/p&gt;
 &lt;p&gt;2.八連桿運動模擬
 &lt;/p&gt;
 &lt;h1&gt;四連桿機構轉入 V-rep 進行運動模擬&lt;/h1&gt;

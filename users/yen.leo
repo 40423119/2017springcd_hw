@@ -60,6 +60,9 @@
 <v t="leo.20170321000454.1"><vh>@edit 20170316.md</vh></v>
 <v t="leo.20170323225301.1"><vh>@edit 20170323.md</vh></v>
 <v t="leo.20170403164445.1"><vh>@edit 20170330.md</vh></v>
+<v t="leo.20170424104733.1" a="E"><vh>201704</vh>
+<v t="leo.20170424104733.2"><vh>@edit 20170420.md</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -233,5 +236,6 @@ def domake():
 # 利用執行緒執行 https 伺服器
 make = threading.Thread(target=domake)
 make.start()</t>
+<t tx="leo.20170424104733.1"></t>
 </tnodes>
 </leo_file>
