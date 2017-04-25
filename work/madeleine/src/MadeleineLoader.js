@@ -316,7 +316,7 @@ if (typeof(window) === "undefined") {
   onmessage = MadeleineLoader;
   workerFacadeMessage = postMessage;
 } else {
-  workerFacadeMessage = WorkerFacade.add("../src/lib/MadeleineLoader.js", MadeleineLoader);
+  workerFacadeMessage = WorkerFacade.add("../src/MadeleineLoader.js", MadeleineLoader);
 }
 
 // Source: http://threejs.org/examples/js/loaders/STLLoader.js 

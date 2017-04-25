@@ -96,5 +96,5 @@ if (typeof(window) === "undefined") {
   onmessage = MadeleineConverter;
   workerFacadeMessage = postMessage;
 } else {
-  workerFacadeMessage = WorkerFacade.add("../src/lib/MadeleineConverter.js", MadeleineConverter);
+  workerFacadeMessage = WorkerFacade.add("../src/MadeleineConverter.js", MadeleineConverter);
 }
