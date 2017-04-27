@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/homework.atom.xml" rel="self"></link><id>./</id><updated>2017-03-30T21:53:00+08:00</updated><entry><title>40423119_W6作業</title><link href="./40423119_w6zuo-ye.html" rel="alternate"></link><published>2017-03-30T21:53:00+08:00</published><updated>2017-03-30T21:53:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-03-30:./40423119_w6zuo-ye.html</id><summary type="html">&lt;p&gt;1.四連桿運動模擬&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/homework.atom.xml" rel="self"></link><id>./</id><updated>2017-04-27T20:17:00+08:00</updated><entry><title>40423119_乘法查驗</title><link href="./40423119_cheng-fa-cha-yan.html" rel="alternate"></link><published>2017-04-27T20:17:00+08:00</published><updated>2017-04-27T20:17:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-04-27:./40423119_cheng-fa-cha-yan.html</id><summary type="html">&lt;p&gt;1.乘法查驗&lt;/p&gt;
+
+
+&lt;h2&gt;乘法查驗&lt;/h2&gt;
+&lt;p&gt;乘法查驗影片&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-q_WUfGj4Iw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="乘法查驗"></category></entry><entry><title>40423119_W6作業</title><link href="./40423119_w6zuo-ye.html" rel="alternate"></link><published>2017-03-30T21:53:00+08:00</published><updated>2017-03-30T21:53:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-03-30:./40423119_w6zuo-ye.html</id><summary type="html">&lt;p&gt;1.四連桿運動模擬&lt;/p&gt;
 &lt;p&gt;2.八連桿運動模擬
 &lt;/p&gt;
 &lt;h1&gt;四連桿機構轉入 V-rep 進行運動模擬&lt;/h1&gt;
