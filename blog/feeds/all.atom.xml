@@ -4,7 +4,22 @@
 
 &lt;h2&gt;乘法查驗&lt;/h2&gt;
 &lt;p&gt;乘法查驗影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-q_WUfGj4Iw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="乘法查驗"></category></entry><entry><title>40423119_期中協同查驗與自評</title><link href="./40423119_qi-zhong-xie-tong-cha-yan-yu-zi-ping.html" rel="alternate"></link><published>2017-04-20T20:17:00+08:00</published><updated>2017-04-20T20:17:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-04-20:./40423119_qi-zhong-xie-tong-cha-yan-yu-zi-ping.html</id><summary type="html">&lt;p&gt;1.Fossil Server 實習查驗&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-q_WUfGj4Iw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;程式碼&lt;/p&gt;
+&lt;p&gt;mul.py
+&lt;pre class="brush: python"&gt;
+def mul(a, b): #定義 a , b
+    return a*b #a 乘以 b
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;app2.py
+&lt;pre class="brush: python"&gt;
+import sys #導入 sys
+sys.path.append("./m1") #資料夾路徑
+import mul #導入 mul.py&lt;/p&gt;
+&lt;p&gt;multiply = mul.mul(5, 5) #乘法演算&lt;/p&gt;
+&lt;p&gt;print(multiply) #輸出結果
+&lt;/pre&gt;&lt;/p&gt;</summary><category term="乘法查驗"></category></entry><entry><title>40423119_期中協同查驗與自評</title><link href="./40423119_qi-zhong-xie-tong-cha-yan-yu-zi-ping.html" rel="alternate"></link><published>2017-04-20T20:17:00+08:00</published><updated>2017-04-20T20:17:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-04-20:./40423119_qi-zhong-xie-tong-cha-yan-yu-zi-ping.html</id><summary type="html">&lt;p&gt;1.Fossil Server 實習查驗&lt;/p&gt;
 &lt;p&gt;2.四連桿機構協同 Trace Point 查驗&lt;/p&gt;
 &lt;p&gt;3.Fourbar Walker OnShape 零件協同繪圖與組立查驗&lt;/p&gt;
 &lt;p&gt;4.分組協同零件展示&lt;/p&gt;

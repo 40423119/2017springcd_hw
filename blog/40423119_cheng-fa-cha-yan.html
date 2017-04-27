@@ -321,6 +321,21 @@ init_mathjax();
 <h2>乘法查驗</h2>
 <p>乘法查驗影片</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-q_WUfGj4Iw" frameborder="0" allowfullscreen></iframe>
+
+<p>程式碼</p>
+<p>mul.py
+<pre class="brush: python">
+def mul(a, b): #定義 a , b
+    return a*b #a 乘以 b
+</pre></p>
+<p>app2.py
+<pre class="brush: python">
+import sys #導入 sys
+sys.path.append("./m1") #資料夾路徑
+import mul #導入 mul.py</p>
+<p>multiply = mul.mul(5, 5) #乘法演算</p>
+<p>print(multiply) #輸出結果
+</pre></p>
             </div>
             <!-- /.entry-content -->
         </article>
