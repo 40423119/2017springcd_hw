@@ -3,8 +3,8 @@
 
 
 &lt;p&gt;利用漸開線原理, 以 Brython 繪製單一正齒輪廓:&lt;/p&gt;
-&lt;!-- 導入 Brython 標準程式庫 --&gt;
-
+&lt;p&gt;齒數：13t
+&lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
 &lt;script src="../data/brython.js"&gt;&lt;/script&gt;
 
 &lt;script src="../data/brython_stdlib.js"&gt;&lt;/script&gt;
@@ -151,15 +151,14 @@ x = (canvas.width)/2
 y = (canvas.height)/2
 r = 0.8*(canvas.height/2)
 # 齒數
-n = 53
+n = 13
 # 壓力角
 pa = 20
 Spur(ctx).Gear(x, y, r, n, pa, "blue")
-
 &lt;/script&gt;
 
-&lt;!-- 以下處理 Cango Spur Gear --&gt;
-
+&lt;p&gt;齒數：11t
+&lt;!-- 以下處理 Cango Spur Gear --&gt;&lt;/p&gt;
 &lt;!-- Cango 程式庫 --&gt;
 
 &lt;script type="text/javascript" src="./../data/w11/cango
@@ -206,7 +205,7 @@ cgo = cango("cango_gear")
 # 畫正齒輪輪廓
 #####################################
 # n 為齒數
-n = 17
+n = 11
 # pa 為壓力角
 pa = 25
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
