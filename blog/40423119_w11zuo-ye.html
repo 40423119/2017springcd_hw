@@ -365,7 +365,7 @@ class Spur(object):
     # pa 為壓力角 (deg)
     # rot 為旋轉角 (deg)
     # 已經針對 n 大於等於 52 齒時的繪圖錯誤修正, 因為 base circle 與齒根圓大小必須進行判斷
-    def Gear(self, midx, midy, rp, n=11, pa=20, color="black"):
+    def Gear(self, midx, midy, rp, n=20, pa=20, color="black"):
         # 齒輪漸開線分成 15 線段繪製
         imax = 15
         # 在輸入的畫布上繪製直線, 由圓心到節圓 y 軸頂點畫一直線
@@ -471,18 +471,7 @@ n = 53
 # 壓力角
 pa = 20
 Spur(ctx).Gear(x, y, r, n, pa, "blue")
-# 以下列出 W11 2B 未出席人數
-data = open("./../data/w11/2b0503.txt", encoding="utf-8").read()
-count = 0
-# 去掉前面兩列
-student = data.split("\n")[2:]
-for i in range(len(student)):
-    each = student[i].split("\t")
-    if each[1] != "出席":
-        count = count + 1
-#print(count)
-div = doc["onegear_div"]
-div <= "2b: " +  str(count) + "/" + str(len(student))
+
 </script>
 
 <!-- 以下處理 Cango Spur Gear -->
@@ -533,7 +522,7 @@ cgo = cango("cango_gear")
 # 畫正齒輪輪廓
 #####################################
 # n 為齒數
-n = 11
+n = 17
 # pa 為壓力角
 pa = 25
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
