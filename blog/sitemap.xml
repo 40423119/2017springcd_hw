@@ -5,41 +5,41 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-05-12T14:14:40-00:00</lastmod>
+<lastmod>2017-05-15T10:40:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-05-12T14:14:40-00:00</lastmod>
+<lastmod>2017-05-15T10:40:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-05-12T14:14:40-00:00</lastmod>
+<lastmod>2017-05-15T10:40:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-05-12T14:14:40-00:00</lastmod>
+<lastmod>2017-05-15T10:40:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2017-05-12T13:53:13+08:00</lastmod>
+<lastmod>2017-05-15T10:16:32+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./40423119_w12.html</loc>
+<loc>./40423119_w12zuo-ye.html</loc>
 <lastmod>2017-05-11T09:30:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -109,15 +109,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./category/course.html</loc>
-<lastmod>2017-05-11T09:30:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./category/homework.html</loc>
-<lastmod>2017-05-04T11:17:00+08:06</lastmod>
+<lastmod>2017-05-11T09:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -130,27 +123,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/qi-zhong-xie-tong-cha-yan-yu-zi-ping.html</loc>
-<lastmod>2017-04-20T20:17:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/dan-lian-gan-yun-dong-mo-ni.html</loc>
-<lastmod>2017-03-23T22:53:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/xie-tong-2dzheng-chi-lun-chuan-dong-hui-tu.html</loc>
-<lastmod>2017-05-11T09:30:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./tag/si-lian-gan-yun-dong-mo-ni-ba-lian-gan-yun-dong-mo-ni.html</loc>
 <lastmod>2017-03-30T21:53:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -158,8 +130,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/hyperworksfan-yi-v-repying-yong.html</loc>
-<lastmod>2017-03-09T23:17:00+08:06</lastmod>
+<loc>./tag/qi-zhong-xie-tong-cha-yan-yu-zi-ping.html</loc>
+<lastmod>2017-04-20T20:17:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -179,8 +151,29 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./tag/xie-tong-2dzheng-chi-lun-chuan-dong-hui-tu.html</loc>
+<lastmod>2017-05-11T09:30:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./tag/cheng-fa-cha-yan.html</loc>
 <lastmod>2017-04-27T20:17:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/dan-lian-gan-yun-dong-mo-ni.html</loc>
+<lastmod>2017-03-23T22:53:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/hyperworksfan-yi-v-repying-yong.html</loc>
+<lastmod>2017-03-09T23:17:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

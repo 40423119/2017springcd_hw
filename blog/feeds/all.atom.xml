@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-11T09:30:00+08:00</updated><entry><title>40423119_W12</title><link href="./40423119_w12.html" rel="alternate"></link><published>2017-05-11T09:30:00+08:00</published><updated>2017-05-11T09:30:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-05-11:./40423119_w12.html</id><summary type="html">&lt;p&gt;1.繪製正齒輪&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-11T09:30:00+08:00</updated><entry><title>40423119_W12作業</title><link href="./40423119_w12zuo-ye.html" rel="alternate"></link><published>2017-05-11T09:30:00+08:00</published><updated>2017-05-11T09:30:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-05-11:./40423119_w12zuo-ye.html</id><summary type="html">&lt;p&gt;1.為何需要減速機?&lt;/p&gt;
+&lt;p&gt;2.何謂漸開線?&lt;/p&gt;
+&lt;p&gt;3.如何畫漸開線正齒輪輪廓?&lt;/p&gt;
+&lt;p&gt;4.如何模擬 2D 正齒輪組囓合？&lt;/p&gt;
 
 
-&lt;h1&gt;繪製17t-11t-13t正齒輪嚙合&lt;/h1&gt;
+&lt;h1&gt;1.為何需要減速機?&lt;/h1&gt;
+&lt;p&gt;( a )減速機是一種相對精密的機械，使用它的目的是降低轉速，增加轉矩。&lt;/p&gt;
+&lt;p&gt;( b )減速機一般用於低轉速大扭矩的傳動設備，把電動機.內燃機或其他高速運轉的動力通過減速機的輸入軸上的齒數少的齒輪嚙合輸出軸上的大齒輪來達到減速的目的。&lt;/p&gt;
+&lt;p&gt;( c )減速機是一種動力傳達機構，利用齒輪的速度轉換器，將馬達的回轉數減速到所要的回轉數，並得到較大轉矩的機構。&lt;/p&gt;
+&lt;h1&gt;2.何謂漸開線?&lt;/h1&gt;
+&lt;p&gt;把一條沒有彈性的細繩繞在一個定圓上(基圓)，拉開繩子的一端並拉直，使繩子與圓周始終相切。繩子端點的軌跡是一條曲線(漸開線)。&lt;/p&gt;
+&lt;h1&gt;3.如何畫漸開線正齒輪輪廓?&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://40423119.github.io/2017springcd_hw/blog/40423119_w11zuo-ye.html"&gt;漸開線正齒輪輪廓繪製&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;4.如何模擬 2D 正齒輪組囓合？&lt;/h1&gt;
+&lt;h2&gt;繪製17t-11t-13t正齒輪嚙合&lt;/h2&gt;
 &lt;p&gt;17t-11t-13t2D正齒輪嚙合
 &lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
 &lt;script src="../data/brython.js"&gt;&lt;/script&gt;
