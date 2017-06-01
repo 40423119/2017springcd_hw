@@ -70,6 +70,9 @@
 <v t="leo.20170504111032.1"><vh>@edit 20170504-1.md</vh></v>
 <v t="leo.20170511090744.1"><vh>@edit 20170511.md</vh></v>
 </v>
+<v t="leo.20170601084128.1" a="E"><vh>201706</vh>
+<v t="leo.20170601084128.3"><vh>@edit 20170601.md</vh></v>
+</v>
 </v>
 </v>
 <v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
@@ -244,5 +247,6 @@ make = threading.Thread(target=domake)
 make.start()</t>
 <t tx="leo.20170424104733.1"></t>
 <t tx="leo.20170504100217.1"></t>
+<t tx="leo.20170601084128.1"></t>
 </tnodes>
 </leo_file>
