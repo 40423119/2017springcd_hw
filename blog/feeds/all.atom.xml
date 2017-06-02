@@ -5,7 +5,7 @@
 &lt;p&gt;4.利用Onshape協同繪製正齒輪嚙合&lt;/p&gt;
 
 
-&lt;p&gt;1.半徑為 250 , 壓力角 20, 齒數為 36 齒, 半齒形的漸開線正齒輪輪廓&lt;/p&gt;
+&lt;h1&gt;1.半徑為 250 , 壓力角 20, 齒數為 36 齒, 半齒形的漸開線正齒輪輪廓&lt;/h1&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script src="../data/brython.js"&gt;&lt;/script&gt;
@@ -173,7 +173,7 @@ ctx.fillText("40423119 ",360,320)
 ctx.stroke()
 &lt;/script&gt;
 
-&lt;p&gt;2.繪製一齒正齒輪&lt;/p&gt;
+&lt;p&gt;#2.繪製一齒正齒輪&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script src="../data/brython.js"&gt;&lt;/script&gt;
@@ -334,7 +334,7 @@ ctx.fillText("40423119 ",360,600)
 ctx.stroke()
 &lt;/script&gt;
 
-&lt;p&gt;3.協同2D正齒輪嚙合&lt;/p&gt;
+&lt;h1&gt;3.協同2D正齒輪嚙合&lt;/h1&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
@@ -694,7 +694,7 @@ ctx.fillText("40443111 ",x_g8-20, y_g8)
 ctx.stroke()
 &lt;/script&gt;
 
-&lt;p&gt;4.利用Onshape協同繪製正齒輪嚙合&lt;/p&gt;
+&lt;h1&gt;4.利用Onshape協同繪製正齒輪嚙合&lt;/h1&gt;
 &lt;iframe src="https://player.vimeo.com/video/219786602" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="https://vimeo.com/219786602"&gt;國立虎尾科技大學_協同產品設計實習_設計二甲_40423137_陳慶豪_W15_Onshape 齒輪組的囓合協同繪圖&lt;/a&gt; from &lt;a href="https://vimeo.com/user45109608"&gt;40423137&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="協同2D正齒輪傳動繪圖"></category></entry><entry><title>40423119_W12作業</title><link href="./40423119_w12zuo-ye.html" rel="alternate"></link><published>2017-05-11T09:30:00+08:00</published><updated>2017-05-11T09:30:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-05-11:./40423119_w12zuo-ye.html</id><summary type="html">&lt;p&gt;1.為何需要減速機?&lt;/p&gt;
