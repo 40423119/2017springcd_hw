@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/homework.atom.xml" rel="self"></link><id>./</id><updated>2017-06-01T11:17:00+08:00</updated><entry><title>40423119_W15作業</title><link href="./40423119_w15zuo-ye.html" rel="alternate"></link><published>2017-06-01T11:17:00+08:00</published><updated>2017-06-01T11:17:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-06-01:./40423119_w15zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/homework.atom.xml" rel="self"></link><id>./</id><updated>2017-06-01T11:17:00+08:00</updated><entry><title>40423119_W15作業</title><link href="./40423119_w15zuo-ye.html" rel="alternate"></link><published>2017-06-01T11:17:00+08:00</published><updated>2017-06-01T11:17:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-06-01:./40423119_w15zuo-ye.html</id><summary type="html">&lt;p&gt;1.半齒形的漸開線正齒輪輪廓&lt;/p&gt;
+&lt;p&gt;2.繪製一齒正齒輪&lt;/p&gt;
+&lt;p&gt;3.協同2D正齒輪嚙合&lt;/p&gt;
+&lt;p&gt;4.利用Onshape協同繪製正齒輪嚙合&lt;/p&gt;
+
 
 &lt;p&gt;1.半徑為 250 , 壓力角 20, 齒數為 36 齒, 半齒形的漸開線正齒輪輪廓&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
