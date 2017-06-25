@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-22T22:48:00+08:00</updated><entry><title>40423119_期末分組專題_AG1</title><link href="./40423119_qi-mo-fen-zu-zhuan-ti-_ag1.html" rel="alternate"></link><updated>2017-06-22T22:48:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-06-22:./40423119_qi-mo-fen-zu-zhuan-ti-_ag1.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-22T22:48:00+08:00</updated><entry><title>40423119_期末分組專題_AG1</title><link href="./40423119_qi-mo-fen-zu-zhuan-ti-_ag1.html" rel="alternate"></link><updated>2017-06-22T22:48:00+08:00</updated><author><name>40423119</name></author><id>tag:,2017-06-22:./40423119_qi-mo-fen-zu-zhuan-ti-_ag1.html</id><summary type="html">&lt;p&gt;1.期末分組專題&lt;/p&gt;
+&lt;p&gt;2.分配工作&lt;/p&gt;
+&lt;p&gt;(a)V-rep模擬&lt;/p&gt;
+&lt;p&gt;(b)Onshape協同繪圖&lt;/p&gt;
+
 
 &lt;p&gt;以下是學號建立帳號 Youtube 與 Vimeo。&lt;/p&gt;
 &lt;p&gt;Youtube影片連結：
@@ -8,7 +12,7 @@
 &lt;a href="https://vimeo.com/user45127671"&gt;https://vimeo.com/user45127671&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;AG1_仿生自走獸&lt;/h1&gt;
 &lt;h2&gt;1.期末分組專題連結：&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://40423105.github.io/2017springcd_hw/blog/qi-mo-fen-zu-zhuan-ti-ag1_fang-sheng-zi-zou-shou.html"&gt;AG_仿生自走獸&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423105.github.io/2017springcd_hw/blog/qi-mo-fen-zu-zhuan-ti-ag1_fang-sheng-zi-zou-shou.html"&gt;AG1_仿生自走獸&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;2.分配工作&lt;/h2&gt;
 &lt;p&gt;在分組行走機構模擬與實作過程中，我所扮演的角色是利用V-rep模擬行走機構以及Onshape協同繪製零件的部分。&lt;/p&gt;
 &lt;p&gt;由於製作4隻腳要花很久的時間，所以只呈現單隻腳加入旋轉軸影片，以下的影片是我用V-rep模擬仿生獸運動的樣子。&lt;/p&gt;
